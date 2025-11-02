@@ -1,0 +1,7 @@
+services:
+  old-is-better-than-new:
+    image: anssi/fcsc2025-web-old-is-better-than-new:latest
+    ports:
+      - ${PORT}:8000
+    environment:
+      - APP_SECRET=ce9fbd88ac4eec98482b6aaf623adee54060b1ef477c677437a1982fbda0e4ac
